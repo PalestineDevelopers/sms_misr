@@ -1,8 +1,11 @@
 name: palestine_sms_misr
 description: Lightweight SMS Misr gateway implementation in dart (unofficial).
-version: 0.0.4
+version: 0.0.5
 
 homepage: https://github.com/msayed-net/PalestineDevelopers
+
+false_secrets:
+  - .gitignore
 
 environment:
   sdk: ">=2.15.1 <3.0.0"
