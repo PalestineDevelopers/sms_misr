@@ -42,14 +42,13 @@ class PalSMSMisr {
     required String phoneNumbers,
     required String message,
   }) async {
-    http.Response response = await http.post(
+    final http.Response response = await http.post(
       Uri.parse(
         '$baseURLMessage?username=$userName&password=$password&language=$language&sender=$senderName&mobile=$phoneNumbers&message=$message',
       ),
     );
 
     if (response.statusCode == 200 && response.body.contains('"1901"')) {
-      print(response.body);
       return true;
     } else {
       developer.log(
@@ -70,16 +69,15 @@ class PalSMSMisr {
     required String phoneNumber,
     String? code,
   }) async {
-    String _code = code ?? generateRandomNumbers();
+    final String _code = code ?? generateRandomNumbers();
 
-    http.Response response = await http.post(
+    final http.Response response = await http.post(
       Uri.parse(
         '$baseURLOTP?username=$userName&password=$password&msignature=$otpSignature&token=$otpToken&sender=$senderName&mobile=$phoneNumber&code=$_code',
       ),
     );
 
     if (response.statusCode == 200 && response.body.contains('"SMSID"')) {
-      print(response.body);
       return code;
     } else {
       developer.log(

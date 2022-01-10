@@ -1,7 +1,7 @@
 import 'package:palestine_sms_misr/palestine_sms_misr.dart';
 
-void main() async {
-  PalSMSMisr palSMSMisr = PalSMSMisr(
+Future<void> main() async {
+  final PalSMSMisr palSMSMisr = PalSMSMisr(
     userName: 'xxxxxxxx',
     password: 'xxxxxxxx',
     senderName: 'xxxxx',
