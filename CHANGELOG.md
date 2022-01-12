@@ -2,6 +2,10 @@
 
 - Improvements.
 
+## 0.0.8
+
+- Docs [badges].
+
 ## 0.0.7
 
 - Automated Release.

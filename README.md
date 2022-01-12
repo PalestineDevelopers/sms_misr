@@ -5,12 +5,15 @@
 Lightweight SMS Misr gateway implementation in dart (unofficial).
 
 [![License](https://img.shields.io/github/license/PalestineDevelopers/sms_misr?style=for-the-badge)](https://github.com/PalestineDevelopers)
-[![Pub](https://img.shields.io/badge/SMS%20Misr-pub-blue?style=for-the-badge)](https://pub.dev/packages/palestine_sms_misr)
+[![Pub](https://img.shields.io/badge/Palestine%20SMS%20Misr-pub-blue?style=for-the-badge)](https://pub.dev/packages/palestine_sms_misr)
 [![Example](https://img.shields.io/badge/Example-Ex-success?style=for-the-badge)](https://pub.dev/packages/palestine_sms_misr/example)
 
+[![PUB](https://img.shields.io/pub/v/palestine_sms_misr.svg?style=for-the-badge)](https://pub.dev/packages/palestine_sms_misr)
 [![GitHub release](https://img.shields.io/github/v/release/PalestineDevelopers/sms_misr?style=for-the-badge)](https://github.com/PalestineDevelopers/sms_misr/releases)
 [![GitHub stars](https://img.shields.io/github/stars/PalestineDevelopers/sms_misr?style=for-the-badge)](https://github.com/PalestineDevelopers/sms_misr)
 [![GitHub forks](https://img.shields.io/github/forks/PalestineDevelopers/sms_misr?style=for-the-badge)](https://github.com/PalestineDevelopers/sms_misr)
+
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2FPalestineDevelopers%2Fsms_misr%2Fbadge%3Fref%3Dmain&style=for-the-badge)](https://actions-badge.atrox.dev/PalestineDevelopers/sms_misr/goto?ref=main)
 
 ---
 
