@@ -22,6 +22,7 @@ Lightweight SMS Misr gateway implementation in dart (unofficial).
 * [Features](#features)
 * [Getting started](#getting-started)
 * [Usage](#usage)
+* [Contributors](#contributors)
 
 ---
 
@@ -75,3 +76,7 @@ await palSMSMisr.sendOTP(
     code: '12xxx', // optional
 );
 ```
+
+## Contributors
+
+![Contributors](https://contrib.rocks/image?repo=palestinedevelopers/sms_misr)
