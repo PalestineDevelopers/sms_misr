@@ -1,4 +1,4 @@
-# palestine_sms_misr (unofficial)
+# sms_misr (unofficial)
 
 ## Part of [PalestineDevelopers](https://github.com/PalestineDevelopers)
 
